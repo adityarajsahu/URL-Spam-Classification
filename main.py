@@ -15,6 +15,6 @@ X_train, X_val, Y_train, Y_val = train_test_split(df[features], df['is_spam'], t
 dt_classifier = DecisionTreeClassifier()
 dt_classifier.fit(X_train, Y_train)
 
-filename = 'SAVED MODEL/model_02-01-2022.sav'
+filename = 'SAVED_MODEL/model_02-01-2022.sav'
 pickle.dump(dt_classifier, open(filename, 'wb'))
 
