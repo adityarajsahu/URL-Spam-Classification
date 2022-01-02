@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import nltk
+nltk.download('punkt')
 
 def preprocessor(df):
     df = df.drop_duplicates(keep='first')
