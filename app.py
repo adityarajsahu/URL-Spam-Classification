@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 from preprocessing import preprocessor
 import streamlit as st
 
-model = pickle.load(open("SAVED MODEL/model_02-01-2022.sav", 'rb'))
+model = pickle.load(open("SAVED_MODEL/model_02-01-2022.sav", 'rb'))
 
 st.image("Image/phishing.jpg")
 st.title("URL Spam Classifier")
@@ -25,7 +25,7 @@ if st.button("Predict"):
         #print("This is a spam URL !!! Don't click on it.")
 
 #url = ["https://briefingday.us8.list-manage.com/unsubscribe"]
-#loaded_model = pickle.load(open("SAVED MODEL/model_02-01-2022.sav", 'rb'))
+#loaded_model = pickle.load(open("SAVED_MODEL/model_02-01-2022.sav", 'rb'))
 
 
 
