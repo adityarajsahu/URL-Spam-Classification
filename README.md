@@ -44,3 +44,7 @@ Accuracy over validation dataset : 96.6%
 I created a web application using streamlit where the classification runs in the backend and classifies the input URLs as spam or non-spam. I deployed the web application on streamlit cloud.
 
 Link - https://share.streamlit.io/adityarajsahu/url-spam-classification/main/app.py
+
+# Further Development
+
+I have planned to deploy this classification model as a chrome extension, so that the user can access it faster.
